@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+calculator disign
+</title>
+<link href="../cal.css/cstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+
+<div class="container"> 
+    
+    <h1>Calculator</h1>
+<input type="text" id="text-box" placeholder="0"><br>
+<input type="button" value="C" class="btn1" onclick="clr()">
+<input type="button" value="&larr;" class="btn1" onclick="back()">
+<input type="button" value="sqr(&radic;)" class="btn1" onclick="varsqr()"><br>
+<input type="button" value="1" class="btn" onclick="dis(1)">
+<input type="button" value="2" class="btn" onclick="dis(2)">
+<input type="button" value="3" class="btn" onclick="dis(3)">
+<input type="button" value="&divide;" class="s2" onclick="varOparator('/')"><br>
+<input type="button" value="4" class="btn" onclick="dis(4)">
+<input type="button" value="5" class="btn" onclick="dis(5)">
+<input type="button" value="6" class="btn" onclick="dis(6)">
+<input type="button" value="&times;" class="s2" onclick="varOparator('*')"><br>
+<input type="button" value="7" class="btn" onclick="dis(7)">
+<input type="button" value="8" class="btn" onclick="dis(8)">
+<input type="button" value="9" class="btn" onclick="dis(9)">
+<input type="button" value="+" class="s2" onclick="varOparator('+')"><br>
+<input type="button" value="." class="btn" onclick="dis('.')">
+<input type="button" value="0" class="btn" onclick="dis(0)">
+<input type="button" value="=" class="s1" onclick="sum()">
+<input type="button" value="-" class="s2" onclick="varOparator('-')">
+    <p></p>
+    <i style="color:rgb(12, 1, 1)"><b><span  style="color:rgb(226, 6, 6)">&copy;</span>Naimul Huda Nishat</i></b>
+</div>
+<script src="../java/index.js"></script>
+</body>
+</html>
